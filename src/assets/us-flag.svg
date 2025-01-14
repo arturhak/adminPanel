@@ -1,0 +1,26 @@
+<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="11" cy="11" r="10" fill="#F2F0F2"/>
+<mask id="mask0_2149_1652" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="1" y="1" width="20" height="20">
+<circle cx="11" cy="11" r="10" fill="#FCFCFC"/>
+</mask>
+<g mask="url(#mask0_2149_1652)">
+<rect x="4.25" y="18.75" width="13.75" height="2.5" fill="#D90026"/>
+<rect x="4.25" y="18.75" width="13.75" height="2.5" fill="#D90026"/>
+<rect x="1.25" y="13.75" width="19.75" height="2.5" fill="#D90026"/>
+<rect x="1.25" y="13.75" width="19.75" height="2.5" fill="#D90026"/>
+<rect x="1.25" y="8.5" width="19.75" height="2.5" fill="#D90026"/>
+<rect x="1.25" y="8.5" width="19.75" height="2.5" fill="#D90026"/>
+<rect x="1.25" y="3.5" width="19.75" height="2.5" fill="#D90026"/>
+<rect x="1.25" y="3.5" width="19.75" height="2.5" fill="#D90026"/>
+<rect x="1" y="1" width="10.25" height="10" fill="#0052B5"/>
+<path d="M9.25 9.375L8.5 9.75L8.75 9L8.25 8.5H9L9.25 7.75L9.625 8.5H10.25L9.75 9L10 9.75L9.25 9.375Z" fill="#EFEFEF"/>
+<path d="M5.75 9.375L5 9.75L5.25 9L4.75 8.5H5.5L5.75 7.75L6.125 8.5H6.75L6.25 9L6.5 9.75L5.75 9.375Z" fill="#EFEFEF"/>
+<path d="M2.25 9.375L1.5 9.75L1.75 9L1.25 8.5H2L2.25 7.75L2.625 8.5H3.25L2.75 9L3 9.75L2.25 9.375Z" fill="#EFEFEF"/>
+<path d="M9.25 6.625L8.5 7L8.75 6.25L8.25 5.75H9L9.25 5L9.625 5.75H10.25L9.75 6.25L10 7L9.25 6.625Z" fill="#EFEFEF"/>
+<path d="M9.25 3.875L8.5 4.25L8.75 3.5L8.25 3H9L9.25 2.25L9.625 3H10.25L9.75 3.5L10 4.25L9.25 3.875Z" fill="#EFEFEF"/>
+<path d="M9.25 1.125L8.5 1.5L8.75 0.75L8.25 0.25H9L9.25 -0.5L9.625 0.25H10.25L9.75 0.75L10 1.5L9.25 1.125Z" fill="#EFEFEF"/>
+<path d="M5.75 3.875L5 4.25L5.25 3.5L4.75 3H5.5L5.75 2.25L6.125 3H6.75L6.25 3.5L6.5 4.25L5.75 3.875Z" fill="#EFEFEF"/>
+<path d="M5.75 6.625L5 7L5.25 6.25L4.75 5.75H5.5L5.75 5L6.125 5.75H6.75L6.25 6.25L6.5 7L5.75 6.625Z" fill="#EFEFEF"/>
+<path d="M2.25 6.625L1.5 7L1.75 6.25L1.25 5.75H2L2.25 5L2.625 5.75H3.25L2.75 6.25L3 7L2.25 6.625Z" fill="#EFEFEF"/>
+</g>
+</svg>
