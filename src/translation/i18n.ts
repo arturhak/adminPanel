@@ -2,6 +2,7 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import {translationEN} from "./translationEN";
 import {translationRU} from "./translationRU";
+import {translationSP} from "./translationSP";
 
 const resources = {
     ENG: {
@@ -9,7 +10,10 @@ const resources = {
     },
     RUS: {
         translation: translationRU
-    }
+    },
+    ESP: {
+        translation: translationSP
+    },
 };
 
 i18n

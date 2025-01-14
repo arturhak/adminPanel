@@ -39,7 +39,7 @@ function ChartGroup(itemData: any) {
                 })
                 }
             </div>
-            <div>Янв</div>
+            <div className="charts-content_text">Янв</div>
         </div>
     )
 }
