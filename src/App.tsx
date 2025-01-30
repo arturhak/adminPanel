@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './App.scss';
 import Header from "./components/Header"
 import {useWeb3ModalAccount} from "@web3modal/ethers/react";
@@ -58,7 +58,33 @@ function App() {
     const {t} = useTranslation()
 
     const {address, chainId, isConnected, status} = useWeb3ModalAccount();
-    const { open } = useWeb3Modal()
+    const { open } = useWeb3Modal();
+
+    useEffect(()=> {
+        apiReference();
+    },[])
+
+    const mid = "23804";
+    const api_key = "23804CNPLZFIYWTSQEDR";
+    const secret_key = "B23D98E7E64056621BACED6C70CA8CE2"
+
+    const apiReference = async () => {
+        try {
+            const options = {
+                method: 'GET',
+                headers: {Accept: 'text/html, application/xhtml+xml, application/xml;q=0.9, image/webp'}
+            };
+
+            fetch(`https://api.offer18.com/api/m/offers/?mid=${mid}&api-key=${api_key}&secret-key=${secret_key}`, options)
+                .then(res => res.json())
+                .then(res => console.log("response=>",res))
+                .catch(err => console.error(err));
+        } catch (error) {
+            console.error("Error tracking conversion:", error);
+        }
+    };
+
+
 
   return (
     <div className="App">
