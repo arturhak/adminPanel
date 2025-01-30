@@ -483,7 +483,7 @@ function AuthLayout({t}: any) {
                             showInfo={false}
                             strokeWidth={18}
                             strokeLinecap="butt"
-                            size={[170,0]}
+                            size={170}
                         />
                         <div className="circle-chart-block_right">
                             <div className="circle-chart-block_right__item">
@@ -584,9 +584,9 @@ function AuthLayout({t}: any) {
                 </div>
 
                 <div className="charts-block_footer">
-                    {footerData.map((data) => {
+                    {footerData.map((data,index) => {
                         return (
-                            <div className="charts-block_footer__item">
+                            <div className="charts-block_footer__item" key={index}>
                                 <div className="charts-block_footer__item___color" style={{background: `${data.color}`}}>
                                 </div>
                                 <div className="charts-block_footer__item___text">
