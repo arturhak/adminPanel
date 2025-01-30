@@ -62,11 +62,11 @@ function App() {
 
     useEffect(()=> {
         apiReference();
-    },[])
+    },[]);
 
     const mid = "23804";
-    const api_key = "23804CNPLZFIYWTSQEDR";
-    const secret_key = "B23D98E7E64056621BACED6C70CA8CE2"
+    const apiKey = "23804CNPLZFIYWTSQEDR";
+    const secretKey = "B23D98E7E64056621BACED6C70CA8CE2"
 
     const apiReference = async () => {
         try {
@@ -75,7 +75,7 @@ function App() {
                 headers: {Accept: 'text/html, application/xhtml+xml, application/xml;q=0.9, image/webp'}
             };
 
-            fetch(`https://api.offer18.com/api/m/offers/?mid=${mid}&api-key=${api_key}&secret-key=${secret_key}`, options)
+            fetch(`https://api.offer18.com/api/m/offers/?mid=${mid}&api-key=${apiKey}&secret-key=${secretKey}`, options)
                 .then(res => res.json())
                 .then(res => console.log("response=>",res))
                 .catch(err => console.error(err));
@@ -83,8 +83,6 @@ function App() {
             console.error("Error tracking conversion:", error);
         }
     };
-
-
 
   return (
     <div className="App">

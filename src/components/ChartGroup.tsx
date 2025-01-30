@@ -22,7 +22,7 @@ function ChartGroup(itemData: any) {
     useEffect(() => {
         setHeights(itemData);
     }, [itemData]);
-    console.log("height====>", heights)
+    // console.log("height====>", heights)
 
     return (
         <div className="charts-content">
