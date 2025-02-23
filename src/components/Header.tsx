@@ -10,15 +10,15 @@ import SpFlag from "../assets/spanish-flag.svg";
 const allLanguages = [
     {
         value: 'RUS',
-        label: <div className="flag-content"><img src={RuFlag} width="22" alt="icon"/><span>RUS</span></div>
+        label: <div className="flag-content"><img src={RuFlag} alt="icon"/><span>RUS</span></div>
     },
     {
         value: 'ENG',
-        label: <div className="flag-content"><img src={UsFlag} width="22" alt="icon"/><span>ENG</span></div>
+        label: <div className="flag-content"><img src={UsFlag} alt="icon"/><span>ENG</span></div>
     },
     {
         value: 'ESP',
-        label: <div className="flag-content"><img src={SpFlag} width="22" alt="icon"/><span>ESP</span></div>
+        label: <div className="flag-content"><img src={SpFlag} alt="icon"/><span>ESP</span></div>
     },
 ];
 
@@ -51,7 +51,7 @@ function Header({address, chainId, isConnected, open, status}:any) {
 
     return (
         <div className="header">
-            <img src={logo} alt="logo" width={112} height={64}/>
+            <img src={logo} alt="logo"/>
             <div className="header_right">
                 <Select
                     defaultValue={language}
@@ -64,8 +64,8 @@ function Header({address, chainId, isConnected, open, status}:any) {
                         <img src={ConnectionIcon} alt="icon" width={24} height={24}/>
                     </div> :
                     <div className="wallet-address-btn" onClick={handleDisconnect}>
-                        <img src={ConnectionIcon} alt="icon" width={24} height={24}/>
-                        <span>{address.slice(0, 11) + "..." + address.slice(-4)}</span>
+                        <img src={ConnectionIcon} alt="icon"/>
+                        <span>{address.slice(0, 6) + "..." + address.slice(-4)}</span>
                     </div>
                 }
             </div>
