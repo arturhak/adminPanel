@@ -48,6 +48,10 @@ function Header({address, chainId, isConnected, open, status}:any) {
             open()
         }
     }
+    const handleOpenConnection = () => {
+            open()
+        }
+
 
     return (
         <div className="header">
@@ -60,10 +64,10 @@ function Header({address, chainId, isConnected, open, status}:any) {
                     rootClassName="language-select"
                 />
                 {!isConnected ?
-                    <div className="header_right__connect-btn" onClick={handleConnect}>
+                    <div className="header_right__connect-btn" onClick={handleOpenConnection}>
                         <img src={ConnectionIcon} alt="icon"/>
                     </div> :
-                    <div className="wallet-address-btn" onClick={handleDisconnect}>
+                    <div className="wallet-address-btn" onClick={handleOpenConnection}>
                         <img src={ConnectionIcon} alt="icon"/>
                         <span>{address.slice(0, 6) + "..." + address.slice(-4)}</span>
                     </div>
