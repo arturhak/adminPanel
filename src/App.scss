@@ -60,6 +60,10 @@
       border-radius: 16px;
       border: 1px solid #313D4F;
       cursor: pointer;
+      img {
+        width: 24px;
+        height: 24px;
+      }
     }
   }
 }
@@ -739,6 +743,14 @@
   .wallet-address-btn {
     padding: 8px;
     gap: 4px;
+    img {
+      width: 16px;
+      height: 16px;
+    }
+  }
+  .header_right__connect-btn {
+    padding: 8px;
+    border-radius: 8px;
     img {
       width: 16px;
       height: 16px;

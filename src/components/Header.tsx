@@ -61,7 +61,7 @@ function Header({address, chainId, isConnected, open, status}:any) {
                 />
                 {!isConnected ?
                     <div className="header_right__connect-btn" onClick={handleConnect}>
-                        <img src={ConnectionIcon} alt="icon" width={24} height={24}/>
+                        <img src={ConnectionIcon} alt="icon"/>
                     </div> :
                     <div className="wallet-address-btn" onClick={handleDisconnect}>
                         <img src={ConnectionIcon} alt="icon"/>
